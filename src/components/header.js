@@ -10,20 +10,24 @@ import { faTimes, faBars  } from '@fortawesome/free-solid-svg-icons'
 
 
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle }) => {
+  
+  
+  return (
   // <header
   //   style={{
   //     background: `rebeccapurple`,
   //     marginBottom: `1.45rem`,
   //   }}
   // >
+  
     <div className="header-container">
      
       <div className="user-info-container">
         <div className="user-info">
         
         
-          <p> about.css</p>
+          <p> {siteTitle}</p>
           
         </div>
         <div className="x-icon">
@@ -54,7 +58,7 @@ const Header = ({ siteTitle }) => (
    
   // </header>
 )
-
+}
 // Header.propTypes = {
 //   siteTitle: PropTypes.string,
 // }

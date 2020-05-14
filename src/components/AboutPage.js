@@ -6,7 +6,7 @@ import Bio from "../components/Bio"
 
 const About = () =>  (
   <div className="about-container">
-    <Header />
+    <Header siteTitle="about.css" />
     <Bio /> 
   </div>
 )

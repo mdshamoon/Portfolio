@@ -133,7 +133,7 @@ class Nav extends React.Component  {
             <div className="navbar-pages">
                 <FontAwesomeIcon width="0" icon={ faFile } className={portfolio_classname} style={{ fontSize:'30px', float:'left'}}/>
                 &nbsp;&nbsp;&nbsp;
-                <Link to="/portfolio"><p>projects.html</p></Link>
+                <Link to="/portfolio"><p>projects.php</p></Link>
             </div>
             <div className="navbar-pages">
                 <FontAwesomeIcon width="0" icon={ faFile } className={contact_classname} style={{ fontSize:'30px', float:'left'}}/>

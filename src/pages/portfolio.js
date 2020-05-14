@@ -44,7 +44,11 @@ class PortfolioPage extends Component {
     
     return (
       <div className="portfolio-page-container">
-        {toggler()}
+         <div className="portfolio-page">
+            <SEO title="Portfolio" />
+            <Nav />
+            <Main />
+          </div>
       </div>
     )
   }
