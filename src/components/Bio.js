@@ -1,5 +1,5 @@
 import React from "react"
-import picture from "../images/about-picture.jpg"
+
 const custom=require('./myCustomFunctions')
 
 class Bio extends React.Component  {
@@ -54,7 +54,7 @@ class Bio extends React.Component  {
               </div>
 
               <div className="about-image-container">
-                <img src={picture} /> 
+                <img src="" /> 
               </div>
 
             </div>  
