@@ -639,11 +639,7 @@ pre tt:after {
   overflow: hidden;
 }
 
-.translate-navbar-right{
-  width: 25%;
-  
-  transition: width 0.6s;
-}
+
 
 .not-visible{
   opacity: 0;

@@ -23,29 +23,16 @@ class About extends Component {
   }
   
   render() {
-    const toggler = () => {
-      if(this.state.navToggle === true) {
-        return(
-          <div className="about-page">
-            <SEO title="Home" />
-            <AboutPage />
-          </div>
-        );
-      }
-      else {
-        return(
-          <div className="about-page">
+    
+    
+    return (
+      <div className="about-page-container">
+         <div className="about-page">
             <SEO title="Home" />
             <Nav />
             <AboutPage />
           </div>
-        );
-      }
-    }
-    
-    return (
-      <div className="about-page-container">
-        {toggler()}
+        
       </div>
     )
   }
