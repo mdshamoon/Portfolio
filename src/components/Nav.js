@@ -21,6 +21,8 @@ class Nav extends React.Component  {
   
   componentDidMount() {
 
+    
+
     document.getElementById('nav-button').onclick=(obj)=>{
       let button= document.getElementsByClassName('navbar-container')[0];
       let insideList=document.getElementsByClassName('navbar-list')[0];
@@ -71,6 +73,8 @@ class Nav extends React.Component  {
      
       
      }
+     if(window.matchMedia("(max-width: 800px)").matches)
+     document.getElementById('nav-button').click();
 
     
      
